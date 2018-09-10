@@ -1,0 +1,16 @@
+#oop
+
+class Student():
+    name = None
+    age = 10
+    course = "Python"
+
+    def doHomework(self):
+        print("我在做作业")
+        return None
+
+menmen=Student()
+print(menmen.name)
+print(menmen.age)
+menmen.doHomework()
+
